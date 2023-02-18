@@ -4,11 +4,13 @@ public class Mensajes {
 
 	
 	public static void Hola() {
-		System.out.println("Hola Consuelo");
+		System.out.print("Hola Consuelo");
+		Descuido.Hola();
 	}
 	
 	public static void Adios() {
-		System.out.println("Adios Consuelo");
+		System.out.print("Adios Consuelo");
+		Descuido.Adios();
 	}
 	
 }
